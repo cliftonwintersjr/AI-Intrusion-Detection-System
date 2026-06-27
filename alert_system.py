@@ -25,9 +25,9 @@ features = [
 # -----------------------------
 # Gmail Configuration
 # -----------------------------
-SENDER_EMAIL = "cliftonwintersjr@gmail.com"
-APP_PASSWORD = "bmju pgnv gpap lifn"   # Gmail App Password (NOT normal password)
-RECEIVER_EMAIL = "cliftonwintersjr@gmail.com"
+SENDER_EMAIL = "YOUR_EMAIL"
+APP_PASSWORD = "YOUR_PASSWORD"   # Gmail App Password (NOT normal password)
+RECEIVER_EMAIL = "OTHER_EMAIL"
 
 # -----------------------------
 # Send Email Function
