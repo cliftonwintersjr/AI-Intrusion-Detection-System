@@ -1,4 +1,4 @@
-# 🛰️ AI-Driven Intrusion Detection System
+# AI-Driven Intrusion Detection System
 
 An AI-powered Intrusion Detection System (IDS) that simulates a telecommunications network and detects anomalous traffic using unsupervised machine learning. The project demonstrates how modern security operations can combine machine learning, database logging, real-time alerting, and web visualization into a complete cybersecurity pipeline.
 
