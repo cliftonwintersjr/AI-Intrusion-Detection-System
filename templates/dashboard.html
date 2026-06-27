@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>NetSentinel AI Dashboard</title>
+
+<style>
+
+body{
+font-family: Arial;
+background-color:#111827;
+color:white;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th{
+background-color:#1f2937;
+padding:10px;
+}
+
+td{
+padding:10px;
+text-align:center;
+}
+
+tr:nth-child(even){
+background-color:#374151;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>NetSentinel AI Dashboard</h1>
+
+<table>
+
+<tr>
+
+<th>Timestamp</th>
+<th>Attack Type</th>
+<th>Severity</th>
+<th>Packet Size</th>
+<th>Packets/sec</th>
+<th>Failed Connections</th>
+
+</tr>
+
+{% for alert in alerts %}
+
+<tr>
+
+<td>{{alert.timestamp}}</td>
+<td>{{alert.attack_type}}</td>
+<td>{{alert.severity}}</td>
+<td>{{alert.packet_size}}</td>
+<td>{{alert.packets_per_second}}</td>
+<td>{{alert.failed_connections}}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+</body>
+</html>
